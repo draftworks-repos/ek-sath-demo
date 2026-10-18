@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme{--color-ink:#080c0c;--color-amber:#e0903a;--color-cream:#f1e6d2;--color-mint:#9fd0c0;--color-blush:#e8b4a6;
+--font-display:var(--font-fraunces),serif;--font-body:var(--font-baloo),sans-serif}
+html{background:#080c0c;color:#f1e6d2;font-family:var(--font-body)}
+.grain{position:fixed;inset:0;z-index:50;pointer-events:none;opacity:.08;
+background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
